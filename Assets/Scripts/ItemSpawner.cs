@@ -28,7 +28,7 @@ public class ItemSpawner : MonoBehaviour
             int index = UnityEngine.Random.Range(0, itemPrefabs.Length);
             float xPos = UnityEngine.Random.Range(minX, maxX); // 화면 가로 [최소, 최대] 사이의 값
             Vector3 pos = new Vector3(xPos, transform.position.y, transform.position.z);
-            Instantiate<Item>(itemPrefabs[0], pos, Quaternion.identity);
+            Instantiate<Item>(itemPrefabs[index], pos, Quaternion.identity);
             yield return new WaitForSeconds(INTERVAL);
         }
     }
