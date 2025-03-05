@@ -8,18 +8,19 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; } // 속성 값 읽기 가능, 값 설정은 내부에서만 가능
-    [SerializeField] private GameObject gameOverPanel;
     private int score = 0;
     private bool isGameOver = false;
 
-    void Start() {
-        gameOverPanel.SetActive(false);
-
+    void Awake() {
         if (Instance == null) {
             Instance = this;
         } else {
             Destroy(gameObject);
         }
+    }
+
+    void Start() {
+        HUDManager.Instance.HideGameOverPanel();
     }
 
     public void AddScore() {
@@ -28,13 +29,11 @@ public class GameManager : MonoBehaviour
     }
     
     public void GameOver() {
-        gameOverPanel.SetActive(true);
+        HUDManager.Instance.ShowGameOverPanel();
+
         isGameOver = true;
 
-        TextMeshProUGUI finalScore = gameOverPanel.transform.Find("FinalScoreText").GetComponent<TextMeshProUGUI>();
-        if (finalScore != null) {
-            finalScore.text = $"점수 : {score} 점";
-        }
+        HUDManager.Instance.SetFinalScoreText(score);
 
         FruitSpawner fruitSpawner = FindObjectOfType<FruitSpawner>();
         if (fruitSpawner != null) {

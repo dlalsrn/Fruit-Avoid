@@ -1005,7 +1005,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d1d9ce93de0574a9a195ca9f05ab77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverPanel: {fileID: 396637744}
 --- !u!4 &901429851
 Transform:
   m_ObjectHideFlags: 0
@@ -2699,6 +2698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e24f38f8c463bf4eb82df4725b6ba17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverPanel: {fileID: 396637744}
   scoreText: {fileID: 369338792}
   shieldImage: {fileID: 209741020}
 --- !u!4 &2028110300
