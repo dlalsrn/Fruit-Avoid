@@ -9,7 +9,7 @@
 <br><br/>
 
 ## 프로젝트 목표
-프로젝트를 통해 Object 생성, Player Controller, Collider 설정 등의 기본적인 요소를 익히는 것을 목표로 합니다.
+프로젝트를 통해 Object 생성, Player Controller, Collider 설정 등의 기본적인 요소를 익히고 이를 사용하여 게임을 개발하는 것을 목표로 합니다.
 <br><br/>
 
 ## 플랫폼 및 기술 스택
