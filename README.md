@@ -21,6 +21,21 @@ Unity, VS code
 ## 사용한 언어
 C#
 
+## 사용한 Asset
+- **Cartoon GUI Pack**: https://assetstore.unity.com/packages/2d/gui/cartoon-gui-pack-48850
+  - 쉴드, 모래시계 아이템 Image
+- **Casual Game BGM #5**: https://assetstore.unity.com/packages/audio/music/casual-game-bgm-5-135943
+  - 게임 BGM
+- **Fruit Falling SFX Pack 1**: https://assetstore.unity.com/packages/audio/sound-fx/fruit-falling-sfx-pack-1-151580
+  - 과일 부셔지는 소리
+- **Pixel Adventure 1**: https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360
+  - 캐릭터 Image
+  - 과일 Image
+
+사용한 Asset File들은 저작권 관련 문제가 발생하는 것을 방지하기 위해 업로드에서 제외했습니다.
+
+필요한 에셋은 위에 제공된 링크에서 개별적으로 다운로드 받아 추가해 주세요.
+
 ## 게임 목표
 캐릭터를 조작하여 화면 상단에서 떨어지는 과일을 피하는 게임으로, 과일을 피해 높은 점수를 기록하는 것이 목표입니다.
 
@@ -34,9 +49,5 @@ C#
 
 - **게임 플레이 영상 링크**: https://youtube.com/shorts/zBGV_nonHw8?feature=share
 
-## 참고
-사용한 Image File들은 저작권 관련 문제가 발생하는 것을 방지하기 위해 업로드에서 제외했습니다.
-
-필요한 에셋은 프로젝트 설명에 제공된 링크나 출처에서 개별적으로 다운로드 받아 추가해 주세요.
-
-
+## 연락처
+- **E-Mail**: qazzaq1541@gmail.com
