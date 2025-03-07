@@ -45,6 +45,9 @@ C#
 - **점수 표시**: 좌측 상단에 현재 점수와 획득한 아이템의 유무 표시
 - **아이템 기능**: Shield를 획득했을 경우 과일과의 충돌 1회 방어, 모래시계를 획득했을 경우 과일 생성 주기 증가
 
+## 개발 과정
+https://velog.io/@lmg0052/series/Unity-Avoid
+
 ## 스크린샷 및 게임 플레이 영상
 ![image](https://github.com/user-attachments/assets/f7702f2c-51aa-4671-b6c8-16046da6f619)
 
