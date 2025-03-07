@@ -15,12 +15,6 @@ Object 생성, Player Controller, Collider 설정 등의 기본적인 요소를 
 - **프로그래밍 언어**: C#
 - **플랫폼**: PC, 모바일
 
-## 사용한 툴
-Unity, VS code
-
-## 사용한 언어
-C#
-
 ## 사용한 Asset
 - **Cartoon GUI Pack**: https://assetstore.unity.com/packages/2d/gui/cartoon-gui-pack-48850
   - 쉴드, 모래시계 아이템 Image
