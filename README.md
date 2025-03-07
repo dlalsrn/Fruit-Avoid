@@ -31,6 +31,7 @@ C#
 - **Pixel Adventure 1**: https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360
   - 캐릭터 Image
   - 과일 Image
+- **Font**: https://maplestory.nexon.com/Media/Font
 
 사용한 Asset File들은 저작권 관련 문제가 발생하는 것을 방지하기 위해 업로드에서 제외했습니다.
 
